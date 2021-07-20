@@ -1,0 +1,63 @@
+/* banner-area */
+.banner{
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.banner-bg{
+    background: #fceae8;
+    border-radius: 10px;
+}
+.price{
+    color: #FF136F;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+/* categories */
+.categories{
+    margin-bottom: 100px;
+}
+.watch{
+    background-color: orange;
+}
+.bag{
+    background: orchid;
+}
+.shoes{
+    background: blue;
+}
+.watch, .bag, .shoes{
+    padding: 10px 30px;
+    border-radius: 10px;
+    color:#fff;
+}
+.categories img{
+    width: 100px;
+}
+/* shoes */
+.shoes-area{
+    margin-bottom: 100px;
+}
+.shoe-card, .backpack-card{
+    border-radius: 10px;
+}
+.backpack{
+    margin-bottom: 100px;
+}
+.backpack-footer{
+    border: 0;
+    background-color: #fff;
+}
+.contact{
+    background-color: #fceae8;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    height: 300px;
+}
+.contact-form h6{
+    color: gray;
+}
