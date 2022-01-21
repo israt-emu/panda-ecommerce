@@ -104,19 +104,19 @@
     <!-- categories-start -->
     <div class="container categories">
         <div class="row g-4">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="d-flex align-items-center justify-content-between watch">
                     <h1>Watch</h1>
-                    <img src="images/categories/watch.png" alt="">
+                    <img src="images/categories/watch.png" id="change-img" alt="">
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="d-flex align-items-center justify-content-between bag">
                     <h1>Bag</h1>
                     <img src="images/categories/bag.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="d-flex align-items-center justify-content-between shoes">
                     <h1>Shoes</h1>
                     <img src="images/categories/shoes.png" alt="">
@@ -129,7 +129,7 @@
     <div class="container shoes-area">
         <h3>Shoes</h3>
         <div class="row g-4 mt-1">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="card h-100 shoe-card border-0 shadow p-2">
                     <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -138,11 +138,11 @@
                             additional.
                         </p>
                         <h5>$120</h5>
-                        <button class="buy-now-button">Buy Now >></button>
+                        <button class="buy-now-button" onclick="clickHandle()">Buy Now >></button>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="card h-100 shoe-card border-0 shadow p-2">
                     <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="card h-100 shoe-card border-0 shadow p-2">
                     <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -175,10 +175,10 @@
     </div>
     <!-- shoes-end -->
     <!-- backpack-start -->
-    <div class="container backpack">
+    <div class="container backpack" id="backpack">
         <h3>Backpack</h3>
         <div class="row g-4 mt-1">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="card h-100 backpack-card border-0 shadow p-2">
                     <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -193,7 +193,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="card h-100 backpack-card border-0 shadow p-2">
                     <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -209,7 +209,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="card h-100 backpack-card border-0 shadow p-2">
                     <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -230,14 +230,14 @@
     </div>
     <!-- backpack-end -->
     <!-- contact-area-start-->
-    <div class="container contact d-flex justify-content-center align-items-center">
+    <div class="container contact d-flex justify-content-center align-items-center" id="contact" on>
         <div class="contact-form">
             <h2>LET'S STAY IN TOUCH</h2>
             <h6>
                 Get updates on sales, specials and more
             </h6>
-            <input type="text" class="form-control" name="" id="">
-            <button type="submit" class="buy-now-button mt-2">SUBMIT</button>
+            <input type="text" class="form-control" name="" id="input">
+            <button type="submit" class="buy-now-button mt-2" id="submit" disabled>SUBMIT</button>
         </div>
     </div>
     <!-- contact-area-end-->
@@ -248,6 +248,7 @@
 
 
     <!-- Bootstrap js -->
+    <script src="panda.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
